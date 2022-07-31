@@ -3,8 +3,18 @@ body {
 }
 
 #twits {
-  background-color: rgba(226, 182, 124, 0.905);
-  border: 3px;
-  margin: 100px;
+  background-color: #f7d8ae;
+  border-style: solid;
+  border-color: #bf3ec8;
+  border-width: 5px;
+  margin: 15% 20% 20% 20%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#twits h6 {
+  margin: 10% 10% 10% 10%;
 }
 /*# sourceMappingURL=style.css.map */

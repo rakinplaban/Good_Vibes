@@ -1,10 +1,22 @@
-$desire : rgba(226, 182, 124, 0.905);
+$desire : #f7d8ae;
+$pinkis : rgb(191, 62, 200);
+$border_width : 5px;
+$border_angle: 30px;
 body{
     background-color: antiquewhite;
 }
 
 #twits{
     background-color: $desire;
-    border: 3px;
-    margin: 100px;
+    border-style: solid;
+    border-color: $pinkis;
+    border-width: $border_width;
+    margin: 15% 20% 20% 20%;
+    border-top-left-radius: $border_angle;
+    border-top-right-radius: $border_angle;
+    border-bottom-left-radius: $border_angle;
+    border-bottom-right-radius: $border_angle;
+    h6{
+        margin: 10% 10% 10% 10%;
+    }
 }
