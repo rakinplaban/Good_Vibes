@@ -1,3 +1,10 @@
+$desire : rgba(226, 182, 124, 0.905);
 body{
     background-color: antiquewhite;
+}
+
+#twits{
+    background-color: $desire;
+    border: 3px;
+    margin: 100px;
 }

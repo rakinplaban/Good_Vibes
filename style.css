@@ -1,4 +1,10 @@
 body {
   background-color: antiquewhite;
 }
+
+#twits {
+  background-color: rgba(226, 182, 124, 0.905);
+  border: 3px;
+  margin: 100px;
+}
 /*# sourceMappingURL=style.css.map */
