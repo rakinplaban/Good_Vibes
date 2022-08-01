@@ -1,4 +1,26 @@
 body {
   background-color: antiquewhite;
 }
+
+#twits {
+  background-color: #f7d8ae;
+  border-style: solid;
+  border-color: #bf3ec8;
+  border-width: 5px;
+  margin: 15% 20% 20% 20%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#twits h6 {
+  margin: 10% 10% 10% 10%;
+}
+
+#twits .btn-buto {
+  margin-left: 80%;
+  margin-bottom: 2%;
+  background-color: #bf3ec8;
+}
 /*# sourceMappingURL=style.css.map */

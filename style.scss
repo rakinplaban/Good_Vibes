@@ -1,3 +1,27 @@
+$desire : #f7d8ae;
+$pinkis : rgb(191, 62, 200);
+$border_width : 5px;
+$border_angle: 30px;
 body{
     background-color: antiquewhite;
+}
+
+#twits{
+    background-color: $desire;
+    border-style: solid;
+    border-color: $pinkis;
+    border-width: $border_width;
+    margin: 15% 20% 20% 20%;
+    border-top-left-radius: $border_angle;
+    border-top-right-radius: $border_angle;
+    border-bottom-left-radius: $border_angle;
+    border-bottom-right-radius: $border_angle;
+    h6{
+        margin: 10% 10% 10% 10%;
+    }
+    .btn-buto{
+        margin-left: 80%;
+        margin-bottom: 2%;
+        background-color: $pinkis;
+    }
 }
