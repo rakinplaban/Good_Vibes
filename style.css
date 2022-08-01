@@ -17,4 +17,10 @@ body {
 #twits h6 {
   margin: 10% 10% 10% 10%;
 }
+
+#twits .btn-buto {
+  margin-left: 80%;
+  margin-bottom: 2%;
+  background-color: #bf3ec8;
+}
 /*# sourceMappingURL=style.css.map */
