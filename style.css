@@ -14,13 +14,22 @@ body {
   border-bottom-right-radius: 30px;
 }
 
-#twits h6 {
-  margin: 10% 10% 10% 10%;
+#twits h5 {
+  margin: 5% 10% 5% 10%;
+  font-family: "Parisienne", cursive;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #twits .btn-buto {
   margin-left: 80%;
   margin-bottom: 2%;
   background-color: #bf3ec8;
+  color: aliceblue;
+  border-color: aliceblue;
+}
+
+#twits .btn-buto :hover {
+  background-color: #6b0075;
 }
 /*# sourceMappingURL=style.css.map */
