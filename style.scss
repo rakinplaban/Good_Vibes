@@ -1,7 +1,11 @@
 $desire : #f7d8ae;
 $pinkis : rgb(191, 62, 200);
+$pinkis_a : rgb(107, 0, 117);
 $border_width : 5px;
 $border_angle: 30px;
+$font_tana: 'Tangerine', cursive;
+$font_mika : 'Parisienne', cursive;
+
 body{
     background-color: antiquewhite;
 }
@@ -16,12 +20,22 @@ body{
     border-top-right-radius: $border_angle;
     border-bottom-left-radius: $border_angle;
     border-bottom-right-radius: $border_angle;
-    h6{
-        margin: 10% 10% 10% 10%;
+    h5{
+        margin: 5% 10% 5% 10%;
+        font-family: $font_mika;
+        font-weight:bold;
+        font-size: 20px;
     }
     .btn-buto{
         margin-left: 80%;
         margin-bottom: 2%;
         background-color: $pinkis;
+        color: aliceblue;
+        border-color: aliceblue;
+    }
+    .btn-buto{
+        :hover{
+            background-color: $pinkis_a;
+        }
     }
 }
