@@ -29,7 +29,9 @@ body {
   border-color: aliceblue;
 }
 
-#twits .btn-buto :hover {
-  background-color: #6b0075;
+#twits #button_h5:hover {
+  background-color: #6b0075 !important;
+  color: white;
+  border-color: #bf3ec8;
 }
 /*# sourceMappingURL=style.css.map */

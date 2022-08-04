@@ -33,9 +33,16 @@ body{
         color: aliceblue;
         border-color: aliceblue;
     }
-    .btn-buto{
-        :hover{
-            background-color: $pinkis_a;
+    #button_h5{
+        &:hover{
+            background-color: $pinkis_a !important;
+            color: white;
+            border-color: $pinkis;
         }
     }
+    // .btn-buto{
+    //     :hover{
+    //         background-color: $pinkis_a;
+    //     }
+    // }
 }
